@@ -12,6 +12,9 @@ namespace practicaMiguelyElena
 {
     public partial class Miguel : Form
     {
+
+
+        
         public Miguel()
         {
             InitializeComponent();
