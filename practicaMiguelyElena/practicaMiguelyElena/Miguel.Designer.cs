@@ -44,7 +44,7 @@
             this.botonmultiplica = new System.Windows.Forms.Button();
             this.botonac = new System.Windows.Forms.Button();
             this.botonraiz = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
+            this.botonlog = new System.Windows.Forms.Button();
             this.botonpotencia = new System.Windows.Forms.Button();
             this.botonmod = new System.Windows.Forms.Button();
             this.pantalla = new System.Windows.Forms.Label();
@@ -54,10 +54,10 @@
             // 
             // boton9
             // 
-            this.boton9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.boton9.BackColor = System.Drawing.SystemColors.MenuBar;
             this.boton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton9.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.boton9.Location = new System.Drawing.Point(21, 222);
+            this.boton9.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.boton9.Location = new System.Drawing.Point(21, 241);
             this.boton9.Name = "boton9";
             this.boton9.Size = new System.Drawing.Size(128, 92);
             this.boton9.TabIndex = 0;
@@ -67,10 +67,10 @@
             // 
             // botonsuma
             // 
-            this.botonsuma.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botonsuma.BackColor = System.Drawing.SystemColors.MenuBar;
             this.botonsuma.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonsuma.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.botonsuma.Location = new System.Drawing.Point(423, 222);
+            this.botonsuma.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.botonsuma.Location = new System.Drawing.Point(423, 241);
             this.botonsuma.Name = "botonsuma";
             this.botonsuma.Size = new System.Drawing.Size(128, 92);
             this.botonsuma.TabIndex = 1;
@@ -80,10 +80,10 @@
             // 
             // boton0
             // 
-            this.boton0.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.boton0.BackColor = System.Drawing.SystemColors.MenuBar;
             this.boton0.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton0.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.boton0.Location = new System.Drawing.Point(21, 516);
+            this.boton0.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.boton0.Location = new System.Drawing.Point(21, 535);
             this.boton0.Name = "boton0";
             this.boton0.Size = new System.Drawing.Size(262, 92);
             this.boton0.TabIndex = 2;
@@ -93,10 +93,10 @@
             // 
             // boton1
             // 
-            this.boton1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.boton1.BackColor = System.Drawing.SystemColors.MenuBar;
             this.boton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.boton1.Location = new System.Drawing.Point(289, 418);
+            this.boton1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.boton1.Location = new System.Drawing.Point(289, 437);
             this.boton1.Name = "boton1";
             this.boton1.Size = new System.Drawing.Size(128, 92);
             this.boton1.TabIndex = 3;
@@ -106,10 +106,10 @@
             // 
             // boton2
             // 
-            this.boton2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.boton2.BackColor = System.Drawing.SystemColors.MenuBar;
             this.boton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.boton2.Location = new System.Drawing.Point(155, 418);
+            this.boton2.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.boton2.Location = new System.Drawing.Point(155, 437);
             this.boton2.Name = "boton2";
             this.boton2.Size = new System.Drawing.Size(128, 92);
             this.boton2.TabIndex = 4;
@@ -119,10 +119,10 @@
             // 
             // boton3
             // 
-            this.boton3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.boton3.BackColor = System.Drawing.SystemColors.MenuBar;
             this.boton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.boton3.Location = new System.Drawing.Point(21, 418);
+            this.boton3.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.boton3.Location = new System.Drawing.Point(21, 437);
             this.boton3.Name = "boton3";
             this.boton3.Size = new System.Drawing.Size(128, 92);
             this.boton3.TabIndex = 5;
@@ -132,10 +132,10 @@
             // 
             // boton4
             // 
-            this.boton4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.boton4.BackColor = System.Drawing.SystemColors.MenuBar;
             this.boton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton4.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.boton4.Location = new System.Drawing.Point(288, 320);
+            this.boton4.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.boton4.Location = new System.Drawing.Point(288, 339);
             this.boton4.Name = "boton4";
             this.boton4.Size = new System.Drawing.Size(128, 92);
             this.boton4.TabIndex = 6;
@@ -145,10 +145,10 @@
             // 
             // boton5
             // 
-            this.boton5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.boton5.BackColor = System.Drawing.SystemColors.MenuBar;
             this.boton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton5.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.boton5.Location = new System.Drawing.Point(155, 320);
+            this.boton5.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.boton5.Location = new System.Drawing.Point(155, 339);
             this.boton5.Name = "boton5";
             this.boton5.Size = new System.Drawing.Size(128, 92);
             this.boton5.TabIndex = 7;
@@ -158,10 +158,10 @@
             // 
             // boton6
             // 
-            this.boton6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.boton6.BackColor = System.Drawing.SystemColors.MenuBar;
             this.boton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton6.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.boton6.Location = new System.Drawing.Point(21, 320);
+            this.boton6.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.boton6.Location = new System.Drawing.Point(21, 339);
             this.boton6.Name = "boton6";
             this.boton6.Size = new System.Drawing.Size(128, 92);
             this.boton6.TabIndex = 8;
@@ -171,10 +171,10 @@
             // 
             // boton7
             // 
-            this.boton7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.boton7.BackColor = System.Drawing.SystemColors.MenuBar;
             this.boton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton7.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.boton7.Location = new System.Drawing.Point(289, 222);
+            this.boton7.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.boton7.Location = new System.Drawing.Point(289, 241);
             this.boton7.Name = "boton7";
             this.boton7.Size = new System.Drawing.Size(128, 92);
             this.boton7.TabIndex = 9;
@@ -184,10 +184,10 @@
             // 
             // boton8
             // 
-            this.boton8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.boton8.BackColor = System.Drawing.SystemColors.MenuBar;
             this.boton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton8.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.boton8.Location = new System.Drawing.Point(155, 222);
+            this.boton8.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.boton8.Location = new System.Drawing.Point(155, 241);
             this.boton8.Name = "boton8";
             this.boton8.Size = new System.Drawing.Size(128, 92);
             this.boton8.TabIndex = 10;
@@ -197,10 +197,10 @@
             // 
             // botonresta
             // 
-            this.botonresta.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botonresta.BackColor = System.Drawing.SystemColors.MenuBar;
             this.botonresta.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonresta.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.botonresta.Location = new System.Drawing.Point(423, 320);
+            this.botonresta.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.botonresta.Location = new System.Drawing.Point(423, 339);
             this.botonresta.Name = "botonresta";
             this.botonresta.Size = new System.Drawing.Size(128, 92);
             this.botonresta.TabIndex = 11;
@@ -210,10 +210,10 @@
             // 
             // botondivide
             // 
-            this.botondivide.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botondivide.BackColor = System.Drawing.SystemColors.MenuBar;
             this.botondivide.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botondivide.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.botondivide.Location = new System.Drawing.Point(423, 418);
+            this.botondivide.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.botondivide.Location = new System.Drawing.Point(423, 437);
             this.botondivide.Name = "botondivide";
             this.botondivide.Size = new System.Drawing.Size(128, 92);
             this.botondivide.TabIndex = 12;
@@ -223,10 +223,10 @@
             // 
             // botonmultiplica
             // 
-            this.botonmultiplica.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botonmultiplica.BackColor = System.Drawing.SystemColors.MenuBar;
             this.botonmultiplica.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonmultiplica.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.botonmultiplica.Location = new System.Drawing.Point(423, 516);
+            this.botonmultiplica.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.botonmultiplica.Location = new System.Drawing.Point(423, 535);
             this.botonmultiplica.Name = "botonmultiplica";
             this.botonmultiplica.Size = new System.Drawing.Size(128, 92);
             this.botonmultiplica.TabIndex = 13;
@@ -236,12 +236,12 @@
             // 
             // botonac
             // 
-            this.botonac.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botonac.BackColor = System.Drawing.SystemColors.MenuBar;
             this.botonac.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonac.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.botonac.ForeColor = System.Drawing.SystemColors.Highlight;
             this.botonac.Location = new System.Drawing.Point(21, 172);
             this.botonac.Name = "botonac";
-            this.botonac.Size = new System.Drawing.Size(128, 44);
+            this.botonac.Size = new System.Drawing.Size(128, 53);
             this.botonac.TabIndex = 14;
             this.botonac.Text = "AC";
             this.botonac.UseVisualStyleBackColor = false;
@@ -249,37 +249,38 @@
             // 
             // botonraiz
             // 
-            this.botonraiz.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botonraiz.BackColor = System.Drawing.SystemColors.MenuBar;
             this.botonraiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonraiz.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.botonraiz.ForeColor = System.Drawing.SystemColors.Highlight;
             this.botonraiz.Location = new System.Drawing.Point(155, 172);
             this.botonraiz.Name = "botonraiz";
-            this.botonraiz.Size = new System.Drawing.Size(128, 44);
+            this.botonraiz.Size = new System.Drawing.Size(128, 53);
             this.botonraiz.TabIndex = 15;
             this.botonraiz.Text = "Raiz";
             this.botonraiz.UseVisualStyleBackColor = false;
             this.botonraiz.Click += new System.EventHandler(this.botonraiz_Click);
             // 
-            // button17
+            // botonlog
             // 
-            this.button17.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button17.Location = new System.Drawing.Point(423, 172);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(128, 44);
-            this.button17.TabIndex = 16;
-            this.button17.Text = "button17";
-            this.button17.UseVisualStyleBackColor = false;
+            this.botonlog.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.botonlog.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonlog.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.botonlog.Location = new System.Drawing.Point(423, 172);
+            this.botonlog.Name = "botonlog";
+            this.botonlog.Size = new System.Drawing.Size(128, 53);
+            this.botonlog.TabIndex = 16;
+            this.botonlog.Text = "log10";
+            this.botonlog.UseVisualStyleBackColor = false;
+            this.botonlog.Click += new System.EventHandler(this.botonlog_Click);
             // 
             // botonpotencia
             // 
-            this.botonpotencia.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botonpotencia.BackColor = System.Drawing.SystemColors.MenuBar;
             this.botonpotencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonpotencia.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.botonpotencia.ForeColor = System.Drawing.SystemColors.Highlight;
             this.botonpotencia.Location = new System.Drawing.Point(288, 172);
             this.botonpotencia.Name = "botonpotencia";
-            this.botonpotencia.Size = new System.Drawing.Size(128, 44);
+            this.botonpotencia.Size = new System.Drawing.Size(128, 53);
             this.botonpotencia.TabIndex = 17;
             this.botonpotencia.Text = "Potencia";
             this.botonpotencia.UseVisualStyleBackColor = false;
@@ -287,10 +288,10 @@
             // 
             // botonmod
             // 
-            this.botonmod.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botonmod.BackColor = System.Drawing.SystemColors.MenuBar;
             this.botonmod.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonmod.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.botonmod.Location = new System.Drawing.Point(289, 516);
+            this.botonmod.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.botonmod.Location = new System.Drawing.Point(289, 535);
             this.botonmod.Name = "botonmod";
             this.botonmod.Size = new System.Drawing.Size(128, 92);
             this.botonmod.TabIndex = 18;
@@ -312,10 +313,10 @@
             // 
             // botonigual
             // 
-            this.botonigual.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botonigual.BackColor = System.Drawing.SystemColors.MenuBar;
             this.botonigual.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonigual.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.botonigual.Location = new System.Drawing.Point(21, 614);
+            this.botonigual.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.botonigual.Location = new System.Drawing.Point(21, 633);
             this.botonigual.Name = "botonigual";
             this.botonigual.Size = new System.Drawing.Size(530, 92);
             this.botonigual.TabIndex = 20;
@@ -330,7 +331,7 @@
             this.pantalla2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pantalla2.Location = new System.Drawing.Point(19, 119);
             this.pantalla2.Name = "pantalla2";
-            this.pantalla2.Size = new System.Drawing.Size(166, 30);
+            this.pantalla2.Size = new System.Drawing.Size(201, 30);
             this.pantalla2.TabIndex = 21;
             this.pantalla2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -338,14 +339,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(642, 738);
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.ClientSize = new System.Drawing.Size(579, 748);
             this.Controls.Add(this.pantalla2);
             this.Controls.Add(this.botonigual);
             this.Controls.Add(this.pantalla);
             this.Controls.Add(this.botonmod);
             this.Controls.Add(this.botonpotencia);
-            this.Controls.Add(this.button17);
+            this.Controls.Add(this.botonlog);
             this.Controls.Add(this.botonraiz);
             this.Controls.Add(this.botonac);
             this.Controls.Add(this.botonmultiplica);
@@ -387,7 +388,7 @@
         private System.Windows.Forms.Button botonmultiplica;
         private System.Windows.Forms.Button botonac;
         private System.Windows.Forms.Button botonraiz;
-        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button botonlog;
         private System.Windows.Forms.Button botonpotencia;
         private System.Windows.Forms.Button botonmod;
         private System.Windows.Forms.Label pantalla;

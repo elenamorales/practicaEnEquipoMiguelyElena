@@ -201,7 +201,7 @@ namespace practicaMiguelyElena
         {
             operando1 = double.Parse(pantalla.Text);
             operador = "+";
-            pantalla2.Text = pantalla.Text+"+";
+            pantalla2.Text = pantalla.Text+" + ";
             pantalla.Text = "0";
             
         }
@@ -210,7 +210,7 @@ namespace practicaMiguelyElena
         {
             operando1 = double.Parse(pantalla.Text);
             operador = "-";
-            pantalla2.Text = pantalla.Text + "-";
+            pantalla2.Text = pantalla.Text + " - ";
             pantalla.Text = "0";
         }
 
@@ -218,7 +218,7 @@ namespace practicaMiguelyElena
         {
             operando1 = double.Parse(pantalla.Text);
             operador = "/";
-            pantalla2.Text = pantalla.Text + "/";
+            pantalla2.Text = pantalla.Text + " / ";
             pantalla.Text = "0";
         }
 
@@ -226,7 +226,7 @@ namespace practicaMiguelyElena
         {
             operando1 = double.Parse(pantalla.Text);
             operador = "x";
-            pantalla2.Text = pantalla.Text + "x";
+            pantalla2.Text = pantalla.Text + " x ";
             pantalla.Text = "0";
         }
 
@@ -274,7 +274,12 @@ namespace practicaMiguelyElena
             else if (operador == "mod")
             {
 
-                operando1 = ;
+                operando1 = operando1 % operando2;
+            }
+            else if (operador == "log")
+            {
+
+                operando1 = System.Math.Log10(operando2);
             }
 
             pantalla.Text = Convert.ToString(operando1);
@@ -299,8 +304,16 @@ namespace practicaMiguelyElena
 
         private void botonmod_Click(object sender, EventArgs e)
         {
+            operando1 = double.Parse(pantalla.Text);
             operador = "mod";
-            pantalla2.Text = "MOD de: ";
+            pantalla2.Text = pantalla.Text +" mod ";
+            pantalla.Text = "0";
+        }
+
+        private void botonlog_Click(object sender, EventArgs e)
+        {
+            operador = "log";
+            pantalla2.Text = "Log10 de: ";
             pantalla.Text = "0";
         }
     }
