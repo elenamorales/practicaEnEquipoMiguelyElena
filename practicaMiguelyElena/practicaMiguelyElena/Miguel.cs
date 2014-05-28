@@ -24,7 +24,10 @@ namespace practicaMiguelyElena
 
         private void boton9_Click(object sender, EventArgs e)
         {
-
+            if (pantalla2.Text != "")
+            {
+                pantalla2.Text = pantalla2.Text + "9";
+            }
 
             if (pantalla.Text == "0")
             {
@@ -38,6 +41,10 @@ namespace practicaMiguelyElena
 
         private void boton8_Click(object sender, EventArgs e)
         {
+            if (pantalla2.Text != "")
+            {
+                pantalla2.Text = pantalla2.Text + "8";
+            }
 
             if (pantalla.Text == "0")
             {
@@ -51,6 +58,10 @@ namespace practicaMiguelyElena
 
         private void boton7_Click(object sender, EventArgs e)
         {
+            if (pantalla2.Text != "")
+            {
+                pantalla2.Text = pantalla2.Text + "7";
+            }
 
             if (pantalla.Text == "0")
             {
@@ -64,6 +75,10 @@ namespace practicaMiguelyElena
 
         private void boton6_Click(object sender, EventArgs e)
         {
+            if (pantalla2.Text != "")
+            {
+                pantalla2.Text = pantalla2.Text + "6";
+            }
 
             if (pantalla.Text == "0")
             {
@@ -77,6 +92,10 @@ namespace practicaMiguelyElena
 
         private void boton5_Click(object sender, EventArgs e)
         {
+            if (pantalla2.Text != "")
+            {
+                pantalla2.Text = pantalla2.Text + "5";
+            }
 
             if (pantalla.Text == "0")
             {
@@ -90,6 +109,10 @@ namespace practicaMiguelyElena
 
         private void boton4_Click(object sender, EventArgs e)
         {
+            if (pantalla2.Text != "")
+            {
+                pantalla2.Text = pantalla2.Text + "4";
+            }
 
             if (pantalla.Text == "0")
             {
@@ -103,7 +126,10 @@ namespace practicaMiguelyElena
 
         private void boton3_Click(object sender, EventArgs e)
         {
-
+            if (pantalla2.Text != "")
+            {
+                pantalla2.Text = pantalla2.Text + "3";
+            }
             if (pantalla.Text == "0")
             {
                 pantalla.Text = "3";
@@ -116,6 +142,10 @@ namespace practicaMiguelyElena
 
         private void boton2_Click(object sender, EventArgs e)
         {
+            if (pantalla2.Text != "")
+            {
+                pantalla2.Text = pantalla2.Text + "2";
+            }
 
             if (pantalla.Text == "0")
             {
@@ -129,6 +159,10 @@ namespace practicaMiguelyElena
 
         private void boton1_Click(object sender, EventArgs e)
         {
+            if (pantalla2.Text != "")
+            {
+                pantalla2.Text = pantalla2.Text + "1";
+            }
 
             if (pantalla.Text == "0")
             {
@@ -142,6 +176,10 @@ namespace practicaMiguelyElena
 
         private void boton0_Click(object sender, EventArgs e)
         {
+            if (pantalla2.Text != "")
+            {
+                pantalla2.Text = pantalla2.Text + "0";
+            }
             if (pantalla.Text == "0")
             {
                 pantalla.Text = "0";
@@ -155,6 +193,60 @@ namespace practicaMiguelyElena
         private void botonac_Click(object sender, EventArgs e)
         {
             pantalla.Text = "0";
+            pantalla2.Text = "";
+        }
+
+        private void botonsuma_Click(object sender, EventArgs e)
+        {
+            operando1 = double.Parse(pantalla.Text);
+            operador = "+";
+            pantalla2.Text = pantalla.Text+"+";
+            pantalla.Text = "0";
+            
+        }
+
+        private void botonresta_Click(object sender, EventArgs e)
+        {
+            operando1 = double.Parse(pantalla.Text);
+            operador = "-";
+            pantalla2.Text = pantalla.Text + "-";
+            pantalla.Text = "0";
+        }
+
+        private void botondivide_Click(object sender, EventArgs e)
+        {
+            operando1 = double.Parse(pantalla.Text);
+            operador = "/";
+            pantalla2.Text = pantalla.Text + "/";
+            pantalla.Text = "0";
+        }
+
+        private void botonmultiplica_Click(object sender, EventArgs e)
+        {
+            operando1 = double.Parse(pantalla.Text);
+            operador = "*";
+            pantalla2.Text = pantalla.Text + "x";
+            pantalla.Text = "0";
+        }
+
+        private void botonigual_Click(object sender, EventArgs e)
+        {
+            double operando2 = Double.Parse(pantalla.Text);
+            if (operador == "+")
+            {
+                operando1 = operando1 + operando2;
+            }
+            else if (operador == "-")
+            {
+
+                operando1 = operando1 - operando2;
+
+
+            }
+
+            pantalla.Text = Convert.ToString(operando1);
+            pantalla2.Text = "";
+            
         }
     }
 }

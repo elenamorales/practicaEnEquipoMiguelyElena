@@ -49,6 +49,7 @@
             this.botonpunto = new System.Windows.Forms.Button();
             this.pantalla = new System.Windows.Forms.Label();
             this.botonigual = new System.Windows.Forms.Button();
+            this.pantalla2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // boton9
@@ -75,6 +76,7 @@
             this.botonsuma.TabIndex = 1;
             this.botonsuma.Text = "+";
             this.botonsuma.UseVisualStyleBackColor = false;
+            this.botonsuma.Click += new System.EventHandler(this.botonsuma_Click);
             // 
             // boton0
             // 
@@ -204,6 +206,7 @@
             this.botonresta.TabIndex = 11;
             this.botonresta.Text = "-";
             this.botonresta.UseVisualStyleBackColor = false;
+            this.botonresta.Click += new System.EventHandler(this.botonresta_Click);
             // 
             // botondivide
             // 
@@ -216,6 +219,7 @@
             this.botondivide.TabIndex = 12;
             this.botondivide.Text = "%";
             this.botondivide.UseVisualStyleBackColor = false;
+            this.botondivide.Click += new System.EventHandler(this.botondivide_Click);
             // 
             // botonmultiplica
             // 
@@ -228,6 +232,7 @@
             this.botonmultiplica.TabIndex = 13;
             this.botonmultiplica.Text = "*";
             this.botonmultiplica.UseVisualStyleBackColor = false;
+            this.botonmultiplica.Click += new System.EventHandler(this.botonmultiplica_Click);
             // 
             // botonac
             // 
@@ -313,6 +318,18 @@
             this.botonigual.TabIndex = 20;
             this.botonigual.Text = "=";
             this.botonigual.UseVisualStyleBackColor = false;
+            this.botonigual.Click += new System.EventHandler(this.botonigual_Click);
+            // 
+            // pantalla2
+            // 
+            this.pantalla2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pantalla2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pantalla2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pantalla2.Location = new System.Drawing.Point(19, 119);
+            this.pantalla2.Name = "pantalla2";
+            this.pantalla2.Size = new System.Drawing.Size(166, 30);
+            this.pantalla2.TabIndex = 21;
+            this.pantalla2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Miguel
             // 
@@ -320,6 +337,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(642, 738);
+            this.Controls.Add(this.pantalla2);
             this.Controls.Add(this.botonigual);
             this.Controls.Add(this.pantalla);
             this.Controls.Add(this.botonpunto);
@@ -371,5 +389,6 @@
         private System.Windows.Forms.Button botonpunto;
         private System.Windows.Forms.Label pantalla;
         private System.Windows.Forms.Button botonigual;
+        private System.Windows.Forms.Label pantalla2;
     }
 }
