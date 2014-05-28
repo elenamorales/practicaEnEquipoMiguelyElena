@@ -327,7 +327,7 @@
             // pantalla2
             // 
             this.pantalla2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pantalla2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pantalla2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pantalla2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pantalla2.Location = new System.Drawing.Point(19, 119);
             this.pantalla2.Name = "pantalla2";
