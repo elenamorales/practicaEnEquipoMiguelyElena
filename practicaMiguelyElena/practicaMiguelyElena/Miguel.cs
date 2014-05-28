@@ -249,12 +249,6 @@ namespace practicaMiguelyElena
                 operando1 = operando1 * operando2;
             }
 
-            //if (operando2 != 0)
-            //{
-            //    operando1 = operando1 / operando2;
-
-            //    pantalla.Text = "E";
-            //}
             else if (operador == "/")
             {
 
