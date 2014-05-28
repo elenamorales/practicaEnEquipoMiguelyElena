@@ -42,7 +42,7 @@
             this.botonresta = new System.Windows.Forms.Button();
             this.botondivide = new System.Windows.Forms.Button();
             this.botonmultiplica = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
+            this.botonac = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
@@ -62,6 +62,7 @@
             this.boton9.TabIndex = 0;
             this.boton9.Text = "9";
             this.boton9.UseVisualStyleBackColor = false;
+            this.boton9.Click += new System.EventHandler(this.boton9_Click);
             // 
             // botonsuma
             // 
@@ -86,6 +87,7 @@
             this.boton0.TabIndex = 2;
             this.boton0.Text = "0";
             this.boton0.UseVisualStyleBackColor = false;
+            this.boton0.Click += new System.EventHandler(this.boton0_Click);
             // 
             // boton1
             // 
@@ -98,6 +100,7 @@
             this.boton1.TabIndex = 3;
             this.boton1.Text = "1";
             this.boton1.UseVisualStyleBackColor = false;
+            this.boton1.Click += new System.EventHandler(this.boton1_Click);
             // 
             // boton2
             // 
@@ -110,6 +113,7 @@
             this.boton2.TabIndex = 4;
             this.boton2.Text = "2";
             this.boton2.UseVisualStyleBackColor = false;
+            this.boton2.Click += new System.EventHandler(this.boton2_Click);
             // 
             // boton3
             // 
@@ -122,6 +126,7 @@
             this.boton3.TabIndex = 5;
             this.boton3.Text = "3";
             this.boton3.UseVisualStyleBackColor = false;
+            this.boton3.Click += new System.EventHandler(this.boton3_Click);
             // 
             // boton4
             // 
@@ -134,6 +139,7 @@
             this.boton4.TabIndex = 6;
             this.boton4.Text = "4";
             this.boton4.UseVisualStyleBackColor = false;
+            this.boton4.Click += new System.EventHandler(this.boton4_Click);
             // 
             // boton5
             // 
@@ -146,6 +152,7 @@
             this.boton5.TabIndex = 7;
             this.boton5.Text = "5";
             this.boton5.UseVisualStyleBackColor = false;
+            this.boton5.Click += new System.EventHandler(this.boton5_Click);
             // 
             // boton6
             // 
@@ -158,6 +165,7 @@
             this.boton6.TabIndex = 8;
             this.boton6.Text = "6";
             this.boton6.UseVisualStyleBackColor = false;
+            this.boton6.Click += new System.EventHandler(this.boton6_Click);
             // 
             // boton7
             // 
@@ -170,6 +178,7 @@
             this.boton7.TabIndex = 9;
             this.boton7.Text = "7";
             this.boton7.UseVisualStyleBackColor = false;
+            this.boton7.Click += new System.EventHandler(this.boton7_Click);
             // 
             // boton8
             // 
@@ -182,6 +191,7 @@
             this.boton8.TabIndex = 10;
             this.boton8.Text = "8";
             this.boton8.UseVisualStyleBackColor = false;
+            this.boton8.Click += new System.EventHandler(this.boton8_Click);
             // 
             // botonresta
             // 
@@ -219,17 +229,18 @@
             this.botonmultiplica.Text = "*";
             this.botonmultiplica.UseVisualStyleBackColor = false;
             // 
-            // button15
+            // botonac
             // 
-            this.button15.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button15.Location = new System.Drawing.Point(21, 172);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(128, 44);
-            this.button15.TabIndex = 14;
-            this.button15.Text = "button15";
-            this.button15.UseVisualStyleBackColor = false;
+            this.botonac.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botonac.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonac.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.botonac.Location = new System.Drawing.Point(21, 172);
+            this.botonac.Name = "botonac";
+            this.botonac.Size = new System.Drawing.Size(128, 44);
+            this.botonac.TabIndex = 14;
+            this.botonac.Text = "AC";
+            this.botonac.UseVisualStyleBackColor = false;
+            this.botonac.Click += new System.EventHandler(this.botonac_Click);
             // 
             // button16
             // 
@@ -315,7 +326,7 @@
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
+            this.Controls.Add(this.botonac);
             this.Controls.Add(this.botonmultiplica);
             this.Controls.Add(this.botondivide);
             this.Controls.Add(this.botonresta);
@@ -353,7 +364,7 @@
         private System.Windows.Forms.Button botonresta;
         private System.Windows.Forms.Button botondivide;
         private System.Windows.Forms.Button botonmultiplica;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button botonac;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
