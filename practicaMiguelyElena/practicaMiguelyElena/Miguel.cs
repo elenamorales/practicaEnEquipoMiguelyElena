@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace practicaMiguelyElena
 {
     public partial class Miguel : Form
@@ -224,7 +225,7 @@ namespace practicaMiguelyElena
         private void botonmultiplica_Click(object sender, EventArgs e)
         {
             operando1 = double.Parse(pantalla.Text);
-            operador = "*";
+            operador = "x";
             pantalla2.Text = pantalla.Text + "x";
             pantalla.Text = "0";
         }
@@ -243,10 +244,64 @@ namespace practicaMiguelyElena
 
 
             }
+            else if (operador == "x")
+            {
+                operando1 = operando1 * operando2;
+            }
+
+            //if (operando2 != 0)
+            //{
+            //    operando1 = operando1 / operando2;
+
+            //    pantalla.Text = "E";
+            //}
+            else if (operador == "/")
+            {
+
+                operando1 = operando1 / operando2;
+            }
+
+            else if (operador == "sqr")
+            {
+
+                operando1 = System.Math.Sqrt(operando2);
+            }
+            else if (operador == "elev")
+            {
+
+                operando1 = System.Math.Pow(operando1,operando2);
+            }
+            else if (operador == "mod")
+            {
+
+                operando1 = ;
+            }
 
             pantalla.Text = Convert.ToString(operando1);
             pantalla2.Text = "";
-            
+
+        }
+
+        private void botonraiz_Click(object sender, EventArgs e)
+        {
+            operador = "sqr";
+            pantalla2.Text =  "Raiz de: ";
+            pantalla.Text = "0";
+        }
+
+        private void botonpotencia_Click(object sender, EventArgs e)
+        {
+            operando1 = double.Parse(pantalla.Text);
+            operador = "elev";
+            pantalla2.Text = pantalla.Text + " elev a ";
+            pantalla.Text = "0";
+        }
+
+        private void botonmod_Click(object sender, EventArgs e)
+        {
+            operador = "mod";
+            pantalla2.Text = "MOD de: ";
+            pantalla.Text = "0";
         }
     }
 }

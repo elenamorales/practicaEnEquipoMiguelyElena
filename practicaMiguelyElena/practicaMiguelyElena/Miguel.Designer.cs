@@ -43,10 +43,10 @@
             this.botondivide = new System.Windows.Forms.Button();
             this.botonmultiplica = new System.Windows.Forms.Button();
             this.botonac = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.botonraiz = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.botonpunto = new System.Windows.Forms.Button();
+            this.botonpotencia = new System.Windows.Forms.Button();
+            this.botonmod = new System.Windows.Forms.Button();
             this.pantalla = new System.Windows.Forms.Label();
             this.botonigual = new System.Windows.Forms.Button();
             this.pantalla2 = new System.Windows.Forms.Label();
@@ -247,17 +247,18 @@
             this.botonac.UseVisualStyleBackColor = false;
             this.botonac.Click += new System.EventHandler(this.botonac_Click);
             // 
-            // button16
+            // botonraiz
             // 
-            this.button16.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button16.Location = new System.Drawing.Point(155, 172);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(128, 44);
-            this.button16.TabIndex = 15;
-            this.button16.Text = "button16";
-            this.button16.UseVisualStyleBackColor = false;
+            this.botonraiz.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botonraiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonraiz.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.botonraiz.Location = new System.Drawing.Point(155, 172);
+            this.botonraiz.Name = "botonraiz";
+            this.botonraiz.Size = new System.Drawing.Size(128, 44);
+            this.botonraiz.TabIndex = 15;
+            this.botonraiz.Text = "Raiz";
+            this.botonraiz.UseVisualStyleBackColor = false;
+            this.botonraiz.Click += new System.EventHandler(this.botonraiz_Click);
             // 
             // button17
             // 
@@ -271,29 +272,31 @@
             this.button17.Text = "button17";
             this.button17.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // botonpotencia
             // 
-            this.button18.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button18.Location = new System.Drawing.Point(288, 172);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(128, 44);
-            this.button18.TabIndex = 17;
-            this.button18.Text = "button18";
-            this.button18.UseVisualStyleBackColor = false;
+            this.botonpotencia.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botonpotencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonpotencia.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.botonpotencia.Location = new System.Drawing.Point(288, 172);
+            this.botonpotencia.Name = "botonpotencia";
+            this.botonpotencia.Size = new System.Drawing.Size(128, 44);
+            this.botonpotencia.TabIndex = 17;
+            this.botonpotencia.Text = "Potencia";
+            this.botonpotencia.UseVisualStyleBackColor = false;
+            this.botonpotencia.Click += new System.EventHandler(this.botonpotencia_Click);
             // 
-            // botonpunto
+            // botonmod
             // 
-            this.botonpunto.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.botonpunto.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonpunto.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.botonpunto.Location = new System.Drawing.Point(289, 516);
-            this.botonpunto.Name = "botonpunto";
-            this.botonpunto.Size = new System.Drawing.Size(128, 92);
-            this.botonpunto.TabIndex = 18;
-            this.botonpunto.Text = ".";
-            this.botonpunto.UseVisualStyleBackColor = false;
+            this.botonmod.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botonmod.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonmod.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.botonmod.Location = new System.Drawing.Point(289, 516);
+            this.botonmod.Name = "botonmod";
+            this.botonmod.Size = new System.Drawing.Size(128, 92);
+            this.botonmod.TabIndex = 18;
+            this.botonmod.Text = "MOD";
+            this.botonmod.UseVisualStyleBackColor = false;
+            this.botonmod.Click += new System.EventHandler(this.botonmod_Click);
             // 
             // pantalla
             // 
@@ -329,7 +332,7 @@
             this.pantalla2.Name = "pantalla2";
             this.pantalla2.Size = new System.Drawing.Size(166, 30);
             this.pantalla2.TabIndex = 21;
-            this.pantalla2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.pantalla2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Miguel
             // 
@@ -340,10 +343,10 @@
             this.Controls.Add(this.pantalla2);
             this.Controls.Add(this.botonigual);
             this.Controls.Add(this.pantalla);
-            this.Controls.Add(this.botonpunto);
-            this.Controls.Add(this.button18);
+            this.Controls.Add(this.botonmod);
+            this.Controls.Add(this.botonpotencia);
             this.Controls.Add(this.button17);
-            this.Controls.Add(this.button16);
+            this.Controls.Add(this.botonraiz);
             this.Controls.Add(this.botonac);
             this.Controls.Add(this.botonmultiplica);
             this.Controls.Add(this.botondivide);
@@ -383,10 +386,10 @@
         private System.Windows.Forms.Button botondivide;
         private System.Windows.Forms.Button botonmultiplica;
         private System.Windows.Forms.Button botonac;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button botonraiz;
         private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button botonpunto;
+        private System.Windows.Forms.Button botonpotencia;
+        private System.Windows.Forms.Button botonmod;
         private System.Windows.Forms.Label pantalla;
         private System.Windows.Forms.Button botonigual;
         private System.Windows.Forms.Label pantalla2;
