@@ -32,13 +32,21 @@ namespace practicaMiguelyElena
 
         public Elena()
         {
-            InitializeComponent();
+            {//El public Form1 es el construtor, no devuelve nada, se llama igual que la clase.
+                InitializeComponent();
 
-            for (int i = 0; i < palabraOculta.Length; i++)
-            {
-                palabraConGuiones += "_ ";
+                //Inicializamos con la eleccion de la palabraOculta:
+
+                palabraOculta = listaPalabras[aleatorio.Next(listaPalabras.Length)];
+
+                //Para que me haga "_ _ _ _ _"hago un for
+                for (int i = 0; i < palabraOculta.Length; i++)
+                {
+                    palabraConGuiones += "_ ";
+
+                }
+                label1.Text = palabraConGuiones;
             }
-            label1.Text = palabraConGuiones;
 
         }
 
@@ -82,7 +90,7 @@ namespace practicaMiguelyElena
                     }
 
                 }
-                label2.Text = palabraConGuiones;
+                label1.Text = palabraConGuiones;
             }
             if (!palabraConGuiones.Contains("_"))
             {
