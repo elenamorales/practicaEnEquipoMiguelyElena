@@ -46,14 +46,14 @@ namespace practicaMiguelyElena
         {
             switch (_fallos)
             {
-                case 0: pictureBox1.Image = global::ahorcado.Properties.Resources.ahorcado_0; break;
-                case 1: pictureBox1.Image = global::ahorcado.Properties.Resources.ahorcado_1; break;
-                case 2: pictureBox1.Image = global::ahorcado.Properties.Resources.ahorcado_2; break;
-                case 3: pictureBox1.Image = global::ahorcado.Properties.Resources.ahorcado_3; break;
-                case 4: pictureBox1.Image = global::ahorcado.Properties.Resources.ahorcado_4; break;
-                case 5: pictureBox1.Image = global::ahorcado.Properties.Resources.ahorcado_5; break;
-                case 6: pictureBox1.Image = global::ahorcado.Properties.Resources.ahorcado_fin; break;
-                case 100: pictureBox1.Image = global::ahorcado.Properties.Resources.acertasteTodo; break;
+                case 0: pictureBox1.Image = global::practicaMiguelyElena.Properties.Resources.ahorcado_0; break;
+                case 1: pictureBox1.Image = global::practicaMiguelyElena.Properties.Resources.ahorcado_1; break;
+                case 2: pictureBox1.Image = global::practicaMiguelyElena.Properties.Resources.ahorcado_2; break;
+                case 3: pictureBox1.Image = global::practicaMiguelyElena.Properties.Resources.ahorcado_3; break;
+                case 4: pictureBox1.Image = global::practicaMiguelyElena.Properties.Resources.ahorcado_4; break;
+                case 5: pictureBox1.Image = global::practicaMiguelyElena.Properties.Resources.ahorcado_5; break;
+                case 6: pictureBox1.Image = global::practicaMiguelyElena.Properties.Resources.ahorcado_fin; break;
+                case 100: pictureBox1.Image = global::practicaMiguelyElena.Properties.Resources.acertasteTodo; break;
 
 
             }
